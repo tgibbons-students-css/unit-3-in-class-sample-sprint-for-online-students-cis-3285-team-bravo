@@ -31,13 +31,13 @@ namespace Sermo.UI.Controllers
         }
 
         [HttpGet]
-        public ActionResult Create()
+        public ActionResult Create() //Changes for Sprint 1 -- I want to create rooms for categorizing conversations -- Randi Lovelett
         {
             return View(new RoomViewModel());
         }
 
         [HttpPost]
-        public ActionResult Create(RoomViewModel model)
+        public ActionResult Create(RoomViewModel model) //Changes for Sprint 1 -- I want to view a list of rooms that represent -- Randi Lovelett
         {
             ActionResult result;
  
