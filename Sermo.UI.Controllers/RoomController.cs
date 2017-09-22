@@ -41,6 +41,7 @@ namespace Sermo.UI.Controllers
         [HttpPost]
         public ActionResult Create(RoomViewModel model)
         { // Made Changes Sprint 1 -- User Story 1 -- I want to create rooms for categorizing conversations -- Tina Hauck
+          // Made Changes Sprint 1 -- User Story 2 -- I want to view a list of rooms that represent conversations -- Tina Hauck
             ActionResult result;
  
             if(ModelState.IsValid)
