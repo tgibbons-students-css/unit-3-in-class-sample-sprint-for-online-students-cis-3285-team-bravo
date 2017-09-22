@@ -19,7 +19,7 @@ namespace Sermo.UnitTests
     {
         [Test]
         public void ConstructingWithoutRoomRepositoryThrowsArgumentNullException()
-        {
+        { // Made Changes Sprint 1 -- User Story 1 -- I want to create rooms for categorizing conversations -- Tina Hauck
             Assert.Throws<ArgumentNullException>(() => new RepositoryRoomViewModelService(null, mockMessageRepository.Object, mockRoomViewModelMapper.Object));
         }
 

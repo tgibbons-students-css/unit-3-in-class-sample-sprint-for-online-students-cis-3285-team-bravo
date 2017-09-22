@@ -39,7 +39,7 @@ namespace Sermo.UnitTests
 
         [Test]
         public void GetCreateRendersView()
-        {
+        { // Made Changes Sprint 1 -- User Story 1 -- I want to create rooms for categorizing conversations -- Tina Hauck
             var controller = CreateController();
 
             var result = controller.Create();
@@ -62,7 +62,7 @@ namespace Sermo.UnitTests
         [TestCase("")]
         [TestCase("    ")]
         public void PostCreateNewRoomWithInvalidRoomNameCausesValidationError(string roomName)
-        {
+        { // Made Changes Sprint 1 -- User Story 1 -- I want to create rooms for categorizing conversations -- Tina Hauck
             var controller = CreateController();
 
             var viewModel = new RoomViewModel { Name = roomName };
