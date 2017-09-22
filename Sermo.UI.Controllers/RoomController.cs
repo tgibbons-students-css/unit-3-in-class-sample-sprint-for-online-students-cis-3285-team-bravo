@@ -68,7 +68,7 @@ namespace Sermo.UI.Controllers
 
         [HttpPost]
         public ActionResult AddMessage(MessageViewModel messageViewModel)
-        {
+        { // Made Changes Sprint 1 -- User Story 4 -- I want to send plain text messages to other room members -- Tina Hauck
             ActionResult result;
 
             if(ModelState.IsValid)

@@ -36,7 +36,7 @@ namespace Sermo.UI.Controllers
         }
 
         public IEnumerable<MessageViewModel> GetRoomMessages(int roomID)
-        {
+        { // Made changes Sprint 1 -- User Story 3 -- I want to view messages that have been sent to a room -- Tina Hauck
             var roomMessages = new List<MessageViewModel>();
             var roomMessageRecords = messageRepository.GetMessagesForRoomID(roomID);
             foreach(var messageRecord in roomMessageRecords)
