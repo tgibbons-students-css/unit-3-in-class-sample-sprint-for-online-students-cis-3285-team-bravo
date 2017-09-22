@@ -23,7 +23,8 @@ namespace Sermo.Data.AdoNet
         }
 
         public void CreateRoom(string name)
-        {
+        { // Made Changes Sprint 1 -- User Story 1 -- I want to create rooms for categorizing conversations -- Tina Hauck
+          // Made Changes Sprint 1 -- User Story 1 -- Made more changes -- Tina Hauck
             using(var connection = databaseFactory.CreateConnection())
             {
                 connection.ConnectionString = applicationSettings.GetValue("SermoConnectionString");
@@ -47,7 +48,7 @@ namespace Sermo.Data.AdoNet
         }
 
         public IEnumerable<RoomRecord> GetAllRooms()
-        {
+        { // Made Changes Sprint 1 -- User Story 1 -- I want to create rooms for categorizing conversations -- Tina Hauck
             var allRooms = new List<RoomRecord>();
 
             using(var connection = databaseFactory.CreateConnection())
