@@ -63,6 +63,7 @@ namespace Sermo.UnitTests
         [TestCase("    ")]
         public void PostCreateNewRoomWithInvalidRoomNameCausesValidationError(string roomName)
         { // Made Changes Sprint 1 -- User Story 1 -- I want to create rooms for categorizing conversations -- Tina Hauck
+          // Changes Sprint 2 -- User Story 2 -- I want to filter message content so that it is appropriate. -- Amanda Nichols
             var controller = CreateController();
 
             var viewModel = new RoomViewModel { Name = roomName };

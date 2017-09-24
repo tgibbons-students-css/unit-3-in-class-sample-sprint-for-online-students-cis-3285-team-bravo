@@ -11,6 +11,7 @@ namespace Sermo.UI.Contracts
     {
         private readonly string[] blacklist = new string[] 
         {
+            // Changes Sprint 2 -- User Story 2 -- I want to filter message content so that it is appropriate. -- Amanda Nichols
             "hefferlump",
             "woozle",
             "jabberwocky",

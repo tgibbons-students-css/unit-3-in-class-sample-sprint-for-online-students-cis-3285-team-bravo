@@ -39,6 +39,7 @@ namespace Sermo.UnitTests
         [SetUp]
         public void SetUp()
         {
+            // Changes Sprint 2 -- User Story 1 -- I want to send markdown that will be correctly formatted. -- Amanda Nichols
             markdown = new Markdown();
             message1 = new MessageViewModel
             {

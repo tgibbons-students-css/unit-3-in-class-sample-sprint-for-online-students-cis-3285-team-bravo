@@ -25,6 +25,7 @@ namespace Sermo.Markdown
 
         public IEnumerable<MessageViewModel> GetRoomMessages(int roomID)
         {
+            // Changes Sprint 2 -- User Story 1 -- I want to send markdown that will be correctly formatted. -- Amanda Nichols
             var roomMessages = @delegate.GetRoomMessages(roomID);
 
             foreach(var viewModel in roomMessages)
